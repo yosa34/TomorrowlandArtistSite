@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/artist_style.css">
+    <title>アーティスト|クエスト新規作成｜ミッション作成</title>
+</head>
+<body id="new_quest_setting">
+    <!-- ヘッダー -->
+    <header>
+
+    </header>
+    <!-- メイン -->
+    <main>
+        <!-- サイドナビ -->
+        <nav>
+            <ul>
+                <li><a href="./new_quest_main.html">New Quest</a></li>
+            </ul>
+            <ul>
+                <li><a href="../index.html">Log Out</a></li>
+            </ul>
+        </nav>
+        <!-- メインボックス -->
+        <div>
+            <form action="./new_quest_confirmation.html">
+                <ul>
+                    <li>
+                        タイトル
+                        <!-- ポップアップ表示 -->
+                        <div>
+                            <p>タイトル：<input type="text" name="" id=""></p>
+                            <p>本文：<textarea name="" id="" cols="30" rows="10"></textarea></p>
+                            <p>種類：
+                                <select name="" id="">
+                                    <option value="0">---</option>
+                                    <option value="1">種類１</option>
+                                    <option value="2">種類２</option>
+                                    <option value="3">種類３</option>
+                                </select>
+                                <!-- 選択問題の場合 -->
+                                <ul>
+                                    <li><input type="text" name="" id=""></li>
+                                    <li><input type="text" name="" id=""></li>
+                                    <li><input type="text" name="" id=""></li>
+                                </ul>
+                            </p>
+                            <p>回答：
+                                <select name="" id="">
+                                    <option value="0">---</option>
+                                    <option value="1">回答１</option>
+                                    <option value="2">回答２</option>
+                                    <option value="3">回答３</option>
+                                </select>
+                            </p>
+                            <div>
+                                <p>場所</p>
+                                <div>
+                                    <p>緯度<input type="text" name="" id=""></p>
+                                    <p>経度<input type="text" name="" id=""></p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <p>プラス</p>
+                </ul>
+
+                <button type="submit">確認</button>
+            </form>
+        </div>
+    </main>
+    <!-- フッター -->
+    <footer>
+
+    </footer>
+</body>
+</html>

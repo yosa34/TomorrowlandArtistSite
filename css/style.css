@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+}
+main{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+nav{
+    position: relative;
+}
+nav > ul:last-child{
+    position: absolute;
+    bottom: 10px;
+    width: 278px;
+}
+nav > ul li{
+    width: 100%;
+}
+nav > ul li a{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}

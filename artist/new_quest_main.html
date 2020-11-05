@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/artist_style.css">
+    <title>アーティスト|クエスト新規作成</title>
+</head>
+<body id="new_quest_main">
+    <!-- ヘッダー -->
+    <header>
+    </header>
+    <!-- メイン -->
+    <main>
+        <!-- サイドナビ -->
+        <nav>
+            <ul>
+                <li><a href="./new_quest_main.html">New Quest</a></li>
+            </ul>
+            <ul>
+                <li><a href="../index.html">Log Out</a></li>
+            </ul>
+        </nav>
+        <!-- メインボックス -->
+        <div>
+            <form action="./new_quest_setting.html">
+                <div>
+                    <h2>報酬設定</h2>
+                    <p>クエスト名：<input type="text" name="" id=""></p>
+                    <div>
+                        <p>
+                            ジャケット選択
+                            <input type="file" name="" id="">
+                        </p>
+                        <p>
+                            報酬選択
+                            <input type="file" name="" id="">
+                            <!-- 
+                                ファイルが選択されている場合
+                                selectタグにdisabled="disabled"をつける
+                            -->
+                            <select name="" id="">
+                                <option value="0">---</option>
+                                <option value="1">既存の音楽１</option>
+                                <option value="2">既存の音楽２</option>
+                                <option value="3">既存の音楽３</option>
+                            </select>
+                        </p>
+                        <p>ミッション期間</p>
+                        <div>
+                            <p>
+                                開始日
+                                <input type="time" name="" id="">
+                            </p>
+                            <p>-</p>
+                            <p>
+                                終了日
+                                <input type="time" name="" id="">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>報酬詳細設定</h2>
+                    <p>クリア条件</p>
+                    <select name="" id="">
+                        <option value="0">---</option>
+                        <option value="1">クリア条件１</option>
+                        <option value="2">クリア条件２</option>
+                        <option value="3">クリア条件３</option>
+                    </select>
+                    <input type="text" name="" id="">
+                    <p>取得上限(人)：<input type="text" name="" id="">人</p>
+                </div>
+                <div>
+                    <h2>CGモデルの設定</h2>
+                    <input type="file" name="" id="">
+                </div>
+                <button type="submit">ミッション設定へ</button>
+            </form>
+        </div>
+    </main>
+    <!-- フッター -->
+    <footer>
+
+    </footer>
+</body>
+</html>

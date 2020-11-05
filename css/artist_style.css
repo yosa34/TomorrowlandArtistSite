@@ -1,0 +1,38 @@
+
+main > div {
+    /* メインボックス引き伸ばし */
+    flex: 1;
+}
+main > nav {
+    /* サイドナビゲーション固定 */
+    width: 300px;
+    border: 1px solid #ccc;
+}
+main > *{
+    padding: 10px;
+    height: 100vh;
+}
+
+main > div button[type="submit"]{
+    display: block;
+    background: #7B7B7B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 180px;
+    margin: 20px auto;
+}
+input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100px;
+    padding: 5px;
+}
+main > div form > div{
+    margin: 30px 0;
+}
+
+main > div form > div h2{
+    font-size: 22px;
+}
