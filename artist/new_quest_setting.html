@@ -32,15 +32,17 @@
                         <!-- ポップアップ表示 -->
                         <div>
                             <p>タイトル：<input type="text" name="" id=""></p>
-                            <p>本文：<textarea name="" id="" cols="30" rows="10"></textarea></p>
+                            <!-- ミッションの問題文 -->
+                            <p>問題文：<textarea name="" id="" cols="30" rows="10"></textarea></p>
                             <p>種類：
+                                <!-- ミッションの種類のデータ表示 -->
                                 <select name="" id="">
                                     <option value="0">---</option>
                                     <option value="1">種類１</option>
                                     <option value="2">種類２</option>
                                     <option value="3">種類３</option>
                                 </select>
-                                <!-- 選択問題の場合 -->
+                                <!-- 選択問題の場合？ -->
                                 <ul>
                                     <li><input type="text" name="" id=""></li>
                                     <li><input type="text" name="" id=""></li>
@@ -48,15 +50,24 @@
                                 </ul>
                             </p>
                             <p>回答：
+                                <!-- クエストの種類によって回答が変わる -->
+                                <!-- 選択問題の場合？ -->
+                                <!-- 上で入力した項目を表示 -->
                                 <select name="" id="">
                                     <option value="0">---</option>
                                     <option value="1">回答１</option>
                                     <option value="2">回答２</option>
                                     <option value="3">回答３</option>
                                 </select>
+                                <!-- 場所の場合？ -->
+                                <div>
+                                    <p>緯度<input type="text" name="" id=""></p>
+                                    <p>経度<input type="text" name="" id=""></p>
+                                </div>
                             </p>
                             <div>
                                 <p>場所</p>
+                                <!-- ミッションの場所 -->
                                 <div>
                                     <p>緯度<input type="text" name="" id=""></p>
                                     <p>経度<input type="text" name="" id=""></p>
@@ -64,6 +75,7 @@
                             </div>
                         </div>
                     </li>
+                    <!-- プラスボタンを押したらミッション項目が増える -->
                     <p>プラス</p>
                 </ul>
 
